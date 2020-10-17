@@ -20,9 +20,10 @@ namespace WiredBrainCoffee.ShopInfoTool
             Display1();
 
             Person p = new Person(10, "Anis");
-
             p.PersonDetails();
 
+            Adderss a = new Adderss("Uttara 10");
+            a.AddressFunction();
 
         }
 
