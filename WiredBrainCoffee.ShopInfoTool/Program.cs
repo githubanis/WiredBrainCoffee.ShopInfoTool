@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using WiredBrainCoffee.ShopInfoTool.Classes;
 
 namespace WiredBrainCoffee.ShopInfoTool
 {
@@ -17,6 +18,11 @@ namespace WiredBrainCoffee.ShopInfoTool
             Console.WriteLine(300);
             Display();
             Display1();
+
+            Person p = new Person(10, "Anis");
+
+            p.PersonDetails();
+
 
         }
 
