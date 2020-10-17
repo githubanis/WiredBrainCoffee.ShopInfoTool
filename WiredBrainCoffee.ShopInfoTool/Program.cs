@@ -12,6 +12,8 @@ namespace WiredBrainCoffee.ShopInfoTool
 
             Console.WriteLine(110);
 
+            Console.WriteLine(100);
+
         }
     }
 }
