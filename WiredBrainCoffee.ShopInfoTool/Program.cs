@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace WiredBrainCoffee.ShopInfoTool
 {
@@ -14,7 +15,13 @@ namespace WiredBrainCoffee.ShopInfoTool
             Console.WriteLine(200);
             Console.WriteLine(100);
             Console.WriteLine(300);
+            Display();
 
+        }
+
+        static public void Display()
+        {
+            Console.WriteLine("Function Called");
         }
     }
 }
