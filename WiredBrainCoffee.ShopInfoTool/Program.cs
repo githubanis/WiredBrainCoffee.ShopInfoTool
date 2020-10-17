@@ -16,12 +16,18 @@ namespace WiredBrainCoffee.ShopInfoTool
             Console.WriteLine(100);
             Console.WriteLine(300);
             Display();
+            Display1();
 
         }
 
         static public void Display()
         {
             Console.WriteLine("Function Called");
+        }
+
+        static public void Display1()
+        {
+            Console.WriteLine();
         }
     }
 }
