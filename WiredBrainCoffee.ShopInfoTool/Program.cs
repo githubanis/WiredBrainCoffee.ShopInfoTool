@@ -10,6 +10,8 @@ namespace WiredBrainCoffee.ShopInfoTool
             Console.WriteLine("Hello Anis");
             Console.WriteLine("Hello Anik");
 
+            Console.WriteLine(110);
+
         }
     }
 }
